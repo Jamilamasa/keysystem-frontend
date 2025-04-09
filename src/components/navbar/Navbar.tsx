@@ -17,7 +17,7 @@ import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#05071E] to-[#000080] text-[22px] font-normal shadow-sm text-[#CFCFCF]">
+    <header className="sticky top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#05071E] to-[#000080] text-[22px] font-normal shadow-sm text-[#CFCFCF]">
       <div className="container mx-auto flex items-center justify-between  py-[10px]">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -73,7 +73,7 @@ const Navbar = () => {
           href="tel:+2348184441404"
           className="hidden md:flex justify-center items-center gap-[6.78px] rounded-full bg-gradient-to-r from-[#000080] via-[#4169E1] to-[#000080] px-[27.1px] py-[12.2px] border-[1.36px] border-[#4169E1] text-[16.26px] font-bold text-white shadow hover:bg-gradient-to-r transition"
         >
-          <img src={phoneIcon} className="w-4 h-4" />{" "}
+          <img src={phoneIcon} className="w-4 h-4" />
           <span>+234 818 444 1404</span>
         </a>
         {/* Mobile Menu Trigger */}
