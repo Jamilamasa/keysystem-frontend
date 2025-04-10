@@ -4,7 +4,7 @@ import trustedConsultant from "@/assets/trustedConsultant.png";
 const TrustedConsultantSection = () => {
   return (
     <GridBackground>
-      <div className="relative z-10  flex flex-col items-center justify-center px-4 text-center text-white lg:w-[1092px] m-auto mt-[169.94px]">
+      <div className="relative z-10  flex flex-col items-center justify-center px-4 text-center text-white lg:w-[1092px] m-auto mt-[169.94px] pb-[42px]">
         <h1 className="lg:text-[50px] text-[40px] font-bold leading-[100%] mb-[19px]">
           Why we are your Trusted Consultant
         </h1>

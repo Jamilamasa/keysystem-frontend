@@ -1,4 +1,5 @@
 import Hero from "./sections/Hero";
+import OurOfferings from "./sections/OurOfferings";
 import TrustedConsultantSection from "./sections/TrustedConsultantSection";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="w-full relative">
         <Hero />   
         <TrustedConsultantSection />
+        <OurOfferings/>
       </div>
     </main>
   );
