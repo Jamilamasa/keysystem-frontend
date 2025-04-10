@@ -1,6 +1,8 @@
 import { GridBackground } from "@/components/ui/GridBackground";
 import { MagicButtonLink } from "@/components/ui/MagicButton";
 import { Spotlight } from "@/components/ui/Spotlight";
+import HeroVisual from "./HeroVisual";
+import { Partners } from "./Partners";
 
 const Hero = () => {
   return (
@@ -23,12 +25,18 @@ const Hero = () => {
           <p className="mt-6 text-lg md:text-[32px] mb-[75px]">
           Driving Digital Transformation, One Solution at a Time
           </p>
-          <div className="mt-8 flex gap-4">
+          <div className="flex gap-4">
             <MagicButtonLink title="Get Started" href="#" variant="default"/>
             <MagicButtonLink title="Learn More" href="#" variant="outline"/>
           </div>
         </div>
       </GridBackground>
+      {/* HeroVisual */}
+      <div className="bg-gradient-to-r from-[#05071E] to-[#000080] mt-[101.88px]">
+        <div className="relative w-full px-4 mb-[117.06px]"><HeroVisual/></div>
+      
+        <Partners/>
+      </div>
     </div>
   );
 };
