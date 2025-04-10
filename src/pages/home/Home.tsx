@@ -1,3 +1,4 @@
+import ComplianceCertification from "./sections/ComplianceCertification";
 import Hero from "./sections/Hero";
 import OurOfferings from "./sections/OurOfferings";
 import TrustedConsultantSection from "./sections/TrustedConsultantSection";
@@ -11,6 +12,7 @@ const Home = () => {
         <TrustedConsultantSection />
         <OurOfferings/>
         <WhatWeRepresent/>
+        <ComplianceCertification/>
       </div>
     </main>
   );
