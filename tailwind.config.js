@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			radial: "radial-gradient(var(--tw-gradient-stops))",
+		  },
 		animation: {
 			scroll: 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
 			spotlight: "spotlight 2s ease 0.25s 1 forwards",

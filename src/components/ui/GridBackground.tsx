@@ -3,7 +3,7 @@ import React from "react";
 
 export function GridBackground({ children }: { children: React.ReactNode }) {
   return (
-    <div className="w-full overflow-hidden bg-gradient-to-r from-[#05071E] to-[#000080] top-0 left-0">
+    <div className="relative w-full overflow-hidden bg-gradient-to-r from-[#05071E] to-[#000080] top-0 left-0">
       {/* Large Grid Background */}
       <div
         className={cn(
