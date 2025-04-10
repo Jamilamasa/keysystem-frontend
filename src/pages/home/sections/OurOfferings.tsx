@@ -11,17 +11,7 @@ import offering9 from "@/assets/offerings/offering9.png";
 import { cn } from "@/lib/utils";
 
 const OurOfferings = () => {
-  const offerings = [
-    offering1,
-    offering2,
-    offering3,
-    offering4,
-    offering5,
-    offering6,
-    offering7,
-    offering8,
-    offering9,
-  ];
+
 
   return (
     <div className="bg-[#05071E] text-white text-center">
