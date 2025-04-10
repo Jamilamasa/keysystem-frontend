@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero";
 import OurOfferings from "./sections/OurOfferings";
 import TrustedConsultantSection from "./sections/TrustedConsultantSection";
+import WhatWeRepresent from "./sections/WhatWeRepresent";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Hero />   
         <TrustedConsultantSection />
         <OurOfferings/>
+        <WhatWeRepresent/>
       </div>
     </main>
   );
