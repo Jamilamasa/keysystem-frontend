@@ -9,7 +9,7 @@ export default {
   	extend: {
 		animation: {
 			scroll: 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
-			spotlight: "spotlight 2s ease .75s 1 forwards",
+			spotlight: "spotlight 2s ease 0.25s 1 forwards",
 		  },
 		  keyframes: {
 			scroll: {
