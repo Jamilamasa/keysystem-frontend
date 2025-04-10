@@ -1,6 +1,7 @@
 import ComplianceCertification from "./sections/ComplianceCertification";
 import Hero from "./sections/Hero";
 import OurOfferings from "./sections/OurOfferings";
+import OurProcess from "./sections/OurProcess";
 import TrustedConsultantSection from "./sections/TrustedConsultantSection";
 import WhatWeRepresent from "./sections/WhatWeRepresent";
 
@@ -13,6 +14,8 @@ const Home = () => {
         <OurOfferings/>
         <WhatWeRepresent/>
         <ComplianceCertification/>
+        {/* They Trust Us */}
+        <OurProcess/>
       </div>
     </main>
   );
