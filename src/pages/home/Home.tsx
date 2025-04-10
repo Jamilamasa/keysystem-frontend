@@ -1,3 +1,4 @@
+import CallToAction from "./sections/CallToAction";
 import ComplianceCertification from "./sections/ComplianceCertification";
 import Hero from "./sections/Hero";
 import OurOfferings from "./sections/OurOfferings";
@@ -16,6 +17,8 @@ const Home = () => {
         <ComplianceCertification/>
         {/* They Trust Us */}
         <OurProcess/>
+        {/* Our partners */}
+        <CallToAction/>
       </div>
     </main>
   );
