@@ -4,8 +4,8 @@ import trustedConsultant from "@/assets/trustedConsultant.webp";
 const TrustedConsultantSection = () => {
   return (
     <GridBackground>
-      <div className="relative z-10  flex flex-col items-center justify-center px-4 text-center text-white lg:w-[1092px] m-auto mt-[169.94px] pb-[42px]">
-        <h1 className="lg:text-[50px] text-[40px] font-bold leading-[100%] mb-[19px]">
+      <section className="relative z-10  flex flex-col items-center justify-center px-4 text-center text-white lg:w-[1092px] m-auto mt-[169.94px] pb-[42px]">
+      <h1 className="lg:text-[50px] text-[40px] font-bold leading-[100%] mb-[19px]">
           Why we are your Trusted Consultant
         </h1>
         <p className="lg:text-[24px] text-[14px] font-normal leading-[100%] mb-[45px]">
@@ -25,7 +25,7 @@ const TrustedConsultantSection = () => {
           alt="Trusted Consultant"
           className="w-full h-auto object-cover "
         />
-      </div>
+      </section>
     </GridBackground>
   );
 };
