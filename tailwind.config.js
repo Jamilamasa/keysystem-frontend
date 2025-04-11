@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			sans: ['Poppins', 'sans-serif'], // default app font
+		  },
 		backgroundImage: {
 			radial: "radial-gradient(var(--tw-gradient-stops))",
 		  },
