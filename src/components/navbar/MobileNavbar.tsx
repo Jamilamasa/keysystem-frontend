@@ -1,5 +1,5 @@
-import logo from "@/assets/KeySystem.svg";
-import phoneIcon from "@/assets/icons/phone.svg";
+import logo from "@/assets/KeySystem.webp";
+import phoneIcon from "@/assets/icons/phone.webp";
 import { Menu} from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 import { NavLink as navLinkType } from "@/constants/navLinks";
@@ -11,7 +11,7 @@ const MobileNavbar = (props: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <button className="md:hidden p-2 text-white">
+        <button className="md:hidden p-2 text-white" aria-label="Toggle navigation menu">
           <Menu className="w-6 h-6" />
         </button>
       </DialogTrigger>
@@ -42,7 +42,7 @@ const MobileNavbar = (props: Props) => {
             href="tel:+2348184441404"
             className="mt-6 flex items-center gap-2 rounded-full bg-gradient-to-r from-[#000080] via-[#4169E1] to-[#000080] px-4 py-2 text-sm font-medium text-white border border-[#4169E1]"
           >
-            <img src={phoneIcon} className="w-4 h-4" />
+            <img src={phoneIcon} alt="phone icon" className="w-4 h-4" />
             <span>+234 818 444 1404</span>
           </a>
         </nav>

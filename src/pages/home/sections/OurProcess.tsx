@@ -1,9 +1,9 @@
-import consultation from "@/assets/strategicConsultation.png"
-import collaboration from "@/assets/collaboration.png"
-import delivery from "@/assets/delivery.png"
+import consultation from "@/assets/strategicConsultation.webp"
+import collaboration from "@/assets/collaboration.webp"
+import delivery from "@/assets/delivery.webp"
 const OurProcess = () => {
   return (
-    <div className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
+    <section className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[44.95px] text-[30px] font-bold leading-[100%] mb-[19px]">
           Our Process
@@ -36,7 +36,7 @@ const OurProcess = () => {
           <img src={delivery} alt="delivery" className="object-contain w-[230px] lg:mt-40"/>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

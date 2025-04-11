@@ -1,11 +1,11 @@
 import { MagicButtonLink } from "@/components/ui/MagicButton";
-import certifications from "@/assets/complianceCertification.png"
+import certifications from "@/assets/complianceCertification.webp"
 
 const ComplianceCertification = () => {
 
 
   return (
-    <div className="bg-[#05071E] text-white text-center pt-[198.6px] px-2">
+    <section className="bg-[#05071E] text-white text-center pt-[198.6px] px-2">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[50px] text-[30px] font-bold leading-[100%] mb-[19px]">
         Compliance Certifications/Standards We Specialize In
@@ -17,7 +17,7 @@ const ComplianceCertification = () => {
       </div>
       {/* Certification */}
      <img src={certifications} alt="certifications" className="w-[1234px] mx-auto"/>
-    </div>
+    </section>
   );
 };
 
