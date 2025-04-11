@@ -26,18 +26,18 @@ export function OurPartners() {
 
 const images = [
   {
-    jsx: <img src={softwareGroup} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={softwareGroup} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={cognizant} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={cognizant} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={temenos} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={temenos} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={netInfo} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={netInfo} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={techMahidra} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={techMahidra} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
 ];

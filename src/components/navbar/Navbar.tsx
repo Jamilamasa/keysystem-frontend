@@ -73,7 +73,7 @@ const Navbar = () => {
           href="tel:+2348184441404"
           className="hidden md:flex justify-center items-center gap-[6.78px] rounded-full bg-gradient-to-r from-[#000080] via-[#4169E1] to-[#000080] px-[27.1px] py-[12.2px] border-[1.36px] border-[#4169E1] text-[16.26px] font-bold text-white shadow hover:bg-gradient-to-r transition"
         >
-          <img src={phoneIcon} className="w-4 h-4" />
+          <img src={phoneIcon} alt="phone icon" className="w-4 h-4" />
           <span>+234 818 444 1404</span>
         </a>
         {/* Mobile Menu Trigger */}

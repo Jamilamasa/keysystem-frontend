@@ -42,7 +42,7 @@ const MobileNavbar = (props: Props) => {
             href="tel:+2348184441404"
             className="mt-6 flex items-center gap-2 rounded-full bg-gradient-to-r from-[#000080] via-[#4169E1] to-[#000080] px-4 py-2 text-sm font-medium text-white border border-[#4169E1]"
           >
-            <img src={phoneIcon} className="w-4 h-4" />
+            <img src={phoneIcon} alt="phone icon" className="w-4 h-4" />
             <span>+234 818 444 1404</span>
           </a>
         </nav>

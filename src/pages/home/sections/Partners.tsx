@@ -23,31 +23,31 @@ export function Partners() {
 
 const images = [
   {
-    jsx: <img src={sterling} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={sterling} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
   {
-    jsx: <img src={crusadersterling} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={crusadersterling} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
   {
-    jsx: <img src={NAFC} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={NAFC} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
   {
-    jsx: <img src={nbf} className="w-[188.44px] h-[75.06px]" />,
+    jsx: <img src={nbf} alt="our partner" className="w-[188.44px] h-[75.06px]" />,
   },
   {
-    jsx: <img src={militaryPension} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={militaryPension} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
   {
-    jsx: <img src={stanbic} className="w-[188.44px] h-[75.06px]" />,
+    jsx: <img src={stanbic} alt="our partner" className="w-[188.44px] h-[75.06px]" />,
   },
   {
-    jsx: <img src={bankMusa} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={bankMusa} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
   {
-    jsx: <img src={bankIga} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={bankIga} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
   {
-    jsx: <img src={lapo} className="w-[188.44px] h-[75.06px]"/>,
+    jsx: <img src={lapo} alt="our partner" className="w-[188.44px] h-[75.06px]"/>,
   },
 
 ];

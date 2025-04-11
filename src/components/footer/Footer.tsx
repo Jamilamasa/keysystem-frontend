@@ -72,6 +72,7 @@ const Footer = () => {
           <XIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />
           <img
             src={linkedinIcon}
+            alt="linkedInIcon"
             className="rounded-full w-[27.478506088256836px] h-[27.478506088256836px]"
           />
           <FacebookIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />

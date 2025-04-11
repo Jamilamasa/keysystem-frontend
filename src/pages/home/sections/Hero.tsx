@@ -6,7 +6,7 @@ import { Partners } from "./Partners";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="home">
       {/* Spotlight */}
       <div>
         <Spotlight

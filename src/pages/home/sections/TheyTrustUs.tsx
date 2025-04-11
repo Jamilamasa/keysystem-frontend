@@ -24,23 +24,32 @@ const TheyTrustUs = () => {
       {/* Partners */}
       <div className=" max-w-6xl mx-auto">
         <div className="grid gap-[37.92px] lg:grid-cols-4 mb-[37.92px]">
-          <img src={lapo} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={npfMicroFinance} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={sterling} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={crusadersterling} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={NAFC} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={nbf} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={militaryPension} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={stanbic} className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img src={lapo} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img
+            src={npfMicroFinance}
+            className="lg:w-[250.85px] lg:h-[99.92px]"
+          />
+          <img src={sterling} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img
+            src={crusadersterling} alt="trust"
+            className="lg:w-[250.85px] lg:h-[99.92px]"
+          />
+          <img src={NAFC} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img src={nbf} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img
+            src={militaryPension} alt="trust"
+            className="lg:w-[250.85px] lg:h-[99.92px]"
+          />
+          <img src={stanbic} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
         </div>
         <div className="flex flex-col lg:flex-row gap-[37.92px] items-center justify-center">
-          <img src={bankMusa} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={bankIga} className="lg:w-[250.85px] lg:h-[99.92px]" />
-          <img src={santander} className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img src={bankMusa} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img src={bankIga} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
+          <img src={santander} alt="trust" className="lg:w-[250.85px] lg:h-[99.92px]" />
         </div>
       </div>
     </section>
   );
 };
-
+ 
 export default TheyTrustUs;

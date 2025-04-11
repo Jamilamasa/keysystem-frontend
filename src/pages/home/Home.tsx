@@ -10,7 +10,7 @@ import WhatWeRepresent from "./sections/WhatWeRepresent";
 
 const Home = () => {
   return (
-    <main className="bg-gradient-to-r from-[#05071E] to-[#000080] flex justify-center items-center flex-col overflow-clip">
+    <main className="bg-gradient-to-r from-[#05071E] to-[#000080] flex justify-center items-center flex-col overflow-clip" id='home'>
       <div className="w-full relative">
         <Hero />   
         <TrustedConsultantSection />
