@@ -1,54 +1,141 @@
-# React + TypeScript + Vite
+# KeySystem Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the frontend codebase for **KeySystem Technology Limited**. This project is built with TypeScript, React, Tailwind CSS, and Vite for high-performance UI development.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Access the deployed version here: [keysystem-frontend.vercel.app](https://keysystem-frontend.vercel.app)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Fully responsive design
+- Accessible components (ARIA labels, keyboard navigation)
+- Modular folder structure
+- Component reusability
+- Error boundary/fallback handling
+- Scalable folder architecture for teams
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── assets/                # Images, icons, logos
+├── components/            # Global components
+│   ├── footer/            # Footer layout components
+│   ├── navbar/            # Navigation components
+│   └── ui/                # Reusable UI components (buttons, dialogs, etc.)
+│
+├── constants/             # Static constants (navLinks, services, contacts)
+├── layouts/               # Shared layout wrappers
+├── lib/                   # Utility functions (e.g. cn.ts)
+├── pages/                 # Route-level pages
+│   └── home/              # Home page and sections
+│       ├── sections/      # Page sections (Hero, Offerings, Partners, etc.)
+│       └── ErrorFallback.tsx # Global error boundary fallback UI
+│
+├── router/                # App routes setup
+├── types/                 # Custom TypeScript types
+├── main.tsx               # Root entry point
+├── App.tsx                # App shell and router config
+└── index.css              # Tailwind and global CSS
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧪 Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+- ⚛️ **React 19**
+- 🧠 **TypeScript**
+- 🌀 **FramerMotion** (animations)
+- 🎨 **TailwindCSS**
+- ⚡ **Vite** (blazing fast bundler)
+- 🗺️ **React Router**
+- 🧼 ESLint + Prettier
+- 🧪 Error boundary with fallback component
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Jamilamasa/keysystem-frontend.git
+cd keysystem-frontend
 ```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the dev server
+
+```bash
+npm run dev
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deployment
+
+This app is fully optimized for deployment on platforms like [Vercel](https://vercel.com/), [Netlify](https://netlify.com), or your preferred host.
+
+---
+
+## 🔄 Lazy Loading
+
+Non-critical sections (e.g. heavy components or low-priority pages) can be lazy-loaded via React:
+
+```tsx
+import { lazy, Suspense } from "react";
+
+const Partners = lazy(() => import("@/pages/home/sections/Partners"));
+
+<Suspense fallback={<div>Loading...</div>}>
+  <Partners />
+</Suspense>
+```
+
+Use this approach in the `router/` config or inside conditional layouts.
+
+---
+
+## 🤝 Contributing
+
+### How to Contribute
+
+1. Fork this repository
+2. Create your feature branch: `git checkout -b feat/your-feature`
+3. Commit your changes: `git commit -m "feat: add new feature"`
+4. Push to the branch: `git push origin feat/your-feature`
+5. Open a pull request!
+
+### Dev Standards
+
+- Use meaningful commit messages (Conventional Commits recommended)
+- Format with Prettier before pushing (`npm run format`)
+- Run `npm run lint` to catch errors
+- Test responsiveness & accessibility
+
+---
+
+## 📧 Contact
+
+For inquiries or support, please email:  
+**[jamilamasa@gmail.com](mailto:jamilamasa@gmail.com)**
+
+---
+
+© 2025 KeySystem Technology Limited. All rights reserved.
