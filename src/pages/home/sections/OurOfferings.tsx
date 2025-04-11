@@ -14,8 +14,8 @@ const OurOfferings = () => {
 
 
   return (
-    <div className="bg-[#05071E] text-white text-center">
-      <div className="pt-[198.6px] flex flex-col items-center justify-center lg:w-[882px] m-auto">
+    <div className="bg-[#05071E] text-white text-center pt-[198.6px] pb-[204.17px]">
+      <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[50px] text-[40px] font-bold leading-[100%] mb-[19px]">
           Our Offerings
         </h1>
