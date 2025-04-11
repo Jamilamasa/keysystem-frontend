@@ -6,6 +6,8 @@ import nbf from '@/assets/heroPartners/nbf.png'
 import militaryPension from '@/assets/heroPartners/militaryPension.png'
 import stanbic from '@/assets/heroPartners/stanbic.png'
 import bankMusa from '@/assets/heroPartners/bankmusa.png'
+import bankIga from '@/assets/heroPartners/bankiga.png'
+import lapo from '@/assets/heroPartners/lapo.png'
 
 export function Partners() {
   return (
@@ -40,6 +42,12 @@ const images = [
   },
   {
     jsx: <img src={bankMusa} className="w-[188.44px] h-[75.06px]"/>,
+  },
+  {
+    jsx: <img src={bankIga} className="w-[188.44px] h-[75.06px]"/>,
+  },
+  {
+    jsx: <img src={lapo} className="w-[188.44px] h-[75.06px]"/>,
   },
 
 ];
