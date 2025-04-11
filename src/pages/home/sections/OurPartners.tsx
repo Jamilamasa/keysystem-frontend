@@ -1,14 +1,14 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import softwareGroup from "@/assets/ourPartnersImages/softwareGroup.png";
-import cognizant from "@/assets/ourPartnersImages/cognizant.png";
-import temenos from "@/assets/ourPartnersImages/temenos.png";
-import netInfo from "@/assets/ourPartnersImages/NetInfo.png";
-import techMahidra from "@/assets/ourPartnersImages/techMahidra.png";
+import softwareGroup from "@/assets/ourPartnersImages/softwareGroup.webp";
+import cognizant from "@/assets/ourPartnersImages/cognizant.webp";
+import temenos from "@/assets/ourPartnersImages/temenos.webp";
+import netInfo from "@/assets/ourPartnersImages/NetInfo.webp";
+import techMahidra from "@/assets/ourPartnersImages/techMahidra.webp";
 
 
 export function OurPartners() {
   return (
-    <div className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
+    <section className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[44.95px] text-[30px] font-bold leading-[100%] mb-[19px]">
         Our Partners
@@ -20,24 +20,24 @@ export function OurPartners() {
       <div className="rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden w-[100vw] bg-[#050617]">
         <InfiniteMovingCards elements={images} direction="right" speed="slow" />
       </div>
-    </div>
+    </section>
   );
 }
 
 const images = [
   {
-    jsx: <img src={softwareGroup} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={softwareGroup} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={cognizant} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={cognizant} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={temenos} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={temenos} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={netInfo} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={netInfo} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
   {
-    jsx: <img src={techMahidra} className="lg:w-[230.11px] lg:h-[91.55px]" />,
+    jsx: <img src={techMahidra} alt="our partner" className="lg:w-[230.11px] lg:h-[91.55px]" />,
   },
 ];

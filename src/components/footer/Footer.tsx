@@ -1,8 +1,8 @@
 import FacebookIcon from "@/assets/icons/FacebookIcon";
 import InstagramIcon from "@/assets/icons/InstagramIcon";
 import XIcon from "@/assets/icons/XIcon";
-import logo from "@/assets/KeySystem.svg";
-import linkedinIcon from "@/assets/icons/LinkedInIcon.svg";
+import logo from "@/assets/KeySystem.webp";
+import linkedinIcon from "@/assets/icons/LinkedInIcon.webp";
 import { services } from "@/constants/footerServices";
 
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
         {/* Services */}
-        <div className="flex-[2] text-[#BBBBBB]">
+        <div className="flex-[2] text-[#BBBBBB]" aria-label="Services">
           <h1 className="text-3xl font-bold mb-4">SERVICES</h1>
           <div className="grid lg:grid-cols-2 gap-4">
             {services.map((items, id) => (
@@ -37,13 +37,13 @@ const Footer = () => {
       {/* QuickLinks & Contact */}
       <div className="flex mb-[63px]">
         {/* Quick Link */}
-        <div className="flex-1">
+        <div className="flex-1" aria-label="Quick Links">
           <h1 className="mb-4 text[30px] font-bold">QUICK LINKS</h1>
           <p className="font-normal text-[24px] mb-2">About Us</p>
           <p className="font-normal text-[24px] mb-2">Sitemap</p>
         </div>
         {/* Contacts */}
-        <div className="flex-[2] text-[#BBBBBB]">
+        <div className="flex-[2] text-[#BBBBBB]" aria-label="Office Addresses">
           <h1 className="text-3xl font-bold mb-4">CONTACT</h1>
           <div className="lg:flex gap-4">
             {/* Nigeria */}
@@ -68,13 +68,40 @@ const Footer = () => {
       <div className="flex">
         {/* Icons */}
         <div className="flex-1 flex gap-[13px] lg:flex-row flex-col lg:gap-[53px] mt-[170px]">
-          <InstagramIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />
-          <XIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />
-          <img
-            src={linkedinIcon}
-            className="rounded-full w-[27.478506088256836px] h-[27.478506088256836px]"
-          />
+          <a
+            href="https://www.instagram.com/daddyjamal__"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <InstagramIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />
+          </a>
+          <a
+            href="https://x.com/amasa_tech?s=21"
+            target="_blank"
+            aria-label="Tweeter"
+          >
+            <XIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />
+          </a>
+          <a
+            href="https://linkedin.com/in/jamil-amasa"
+            target="_blank"
+            aria-label="Linkedin"
+          >
+            <img
+              src={linkedinIcon}
+              alt="linkedInIcon"
+              className="rounded-full w-[27.478506088256836px] h-[27.478506088256836px]"
+            />
+          </a>
+          <a
+            href="https://linkedin.com/in/jamil-amasa"
+            target="_blank"
+            aria-label="Facebook"
+          >
           <FacebookIcon className="w-[27.478506088256836px] h-[27.478506088256836px]" />
+          </a>
+
+          
         </div>
         <div className="lg:flex-[2] flex-1 grid lg:grid-cols-3 gap-[63px]">
           <div>

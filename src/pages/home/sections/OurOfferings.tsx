@@ -1,20 +1,20 @@
 import { MagicButtonLink } from "@/components/ui/MagicButton";
-import offering1 from "@/assets/offerings/offering1.png";
-import offering2 from "@/assets/offerings/offering2.png";
-import offering3 from "@/assets/offerings/offering3.png";
-import offering4 from "@/assets/offerings/offering4.png";
-import offering5 from "@/assets/offerings/offering5.png";
-import offering6 from "@/assets/offerings/offering6.png";
-import offering7 from "@/assets/offerings/offering7.png";
-import offering8 from "@/assets/offerings/offering8.png";
-import offering9 from "@/assets/offerings/offering9.png";
+import offering1 from "@/assets/offerings/offering1.webp";
+import offering2 from "@/assets/offerings/offering2.webp";
+import offering3 from "@/assets/offerings/offering3.webp";
+import offering4 from "@/assets/offerings/offering4.webp";
+import offering5 from "@/assets/offerings/offering5.webp";
+import offering6 from "@/assets/offerings/offering6.webp";
+import offering7 from "@/assets/offerings/offering7.webp";
+import offering8 from "@/assets/offerings/offering8.webp";
+import offering9 from "@/assets/offerings/offering9.webp";
 import { cn } from "@/lib/utils";
 
 const OurOfferings = () => {
 
 
   return (
-    <div className="bg-[#05071E] text-white text-center pt-[198.6px] pb-[204.17px]">
+    <section className="bg-[#05071E] text-white text-center pt-[198.6px] pb-[204.17px]">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[50px] text-[40px] font-bold leading-[100%] mb-[19px]">
           Our Offerings
@@ -60,7 +60,7 @@ const OurOfferings = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
