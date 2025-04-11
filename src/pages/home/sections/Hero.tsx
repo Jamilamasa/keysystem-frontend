@@ -6,7 +6,7 @@ import { Partners } from "./Partners";
 
 const Hero = () => {
   return (
-    <div>
+    <section>
       {/* Spotlight */}
       <div>
         <Spotlight
@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
         <Partners />
       </div>
-    </div>
+    </section>
   );
 };
 

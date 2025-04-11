@@ -8,7 +8,7 @@ import techMahidra from "@/assets/ourPartnersImages/techMahidra.png";
 
 export function OurPartners() {
   return (
-    <div className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
+    <section className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[44.95px] text-[30px] font-bold leading-[100%] mb-[19px]">
         Our Partners
@@ -20,7 +20,7 @@ export function OurPartners() {
       <div className="rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden w-[100vw] bg-[#050617]">
         <InfiniteMovingCards elements={images} direction="right" speed="slow" />
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -20,7 +20,7 @@ const WhatWeRepresent = () => {
   ];
   const cardBaseClass = "bg-gradient-to-tr from-[#05071E] to-[#000080] from-55% text-white px-8 py-12 rounded-[10px] text-left flex flex-col";
   return (
-    <div className="bg-[#030416] text-white text-center pt-[119px] pb-[204.17px] px-3">
+    <section className="bg-[#030416] text-white text-center pt-[119px] pb-[204.17px] px-3">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[44.95px] text-[40px] font-bold leading-[100%] mb-[8px]">
           What we Represent
@@ -66,7 +66,7 @@ const WhatWeRepresent = () => {
           </MovingBorderDiv>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 export default WhatWeRepresent;

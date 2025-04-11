@@ -12,7 +12,7 @@ import santander from "@/assets/heroPartners/santander.png";
 
 const TheyTrustUs = () => {
   return (
-    <div className="bg-[#020107] text-white pt-[100.73px] lg:px-[103px] px-10">
+    <section className="bg-[#020107] text-white pt-[100.73px] lg:px-[103px] px-10">
       <div className=" flex flex-col items-center justify-center lg:w-[882px] m-auto">
         <h1 className="lg:text-[50px] text-[30px] font-bold leading-[100%] mb-[19px]">
           They Trust Us
@@ -39,7 +39,7 @@ const TheyTrustUs = () => {
           <img src={santander} className="lg:w-[250.85px] lg:h-[99.92px]" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

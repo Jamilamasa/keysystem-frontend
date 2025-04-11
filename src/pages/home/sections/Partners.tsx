@@ -11,13 +11,13 @@ import lapo from '@/assets/heroPartners/lapo.png'
 
 export function Partners() {
   return (
-    <div className="rounded-md flex flex-col antialiased bg-grid-white/[0.05] items-center justify-center relative overflow-hidden w-[100vw]">
+    <section className="rounded-md flex flex-col antialiased bg-grid-white/[0.05] items-center justify-center relative overflow-hidden w-[100vw]">
       <InfiniteMovingCards
         elements={images}
         direction="right"
         speed="slow"
       />
-    </div>
+    </section>
   );
 }
 
