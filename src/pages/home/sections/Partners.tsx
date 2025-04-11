@@ -1,13 +1,13 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import sterling from '@/assets/heroPartners/sterling.png'
-import crusadersterling from '@/assets/heroPartners/crusadersterling.png'
-import NAFC from '@/assets/heroPartners/NAFC.png'
-import nbf from '@/assets/heroPartners/nbf.png'
-import militaryPension from '@/assets/heroPartners/militaryPension.png'
-import stanbic from '@/assets/heroPartners/stanbic.png'
-import bankMusa from '@/assets/heroPartners/bankmusa.png'
-import bankIga from '@/assets/heroPartners/bankiga.png'
-import lapo from '@/assets/heroPartners/lapo.png'
+import sterling from '@/assets/heroPartners/sterling.webp'
+import crusadersterling from '@/assets/heroPartners/crusadersterling.webp'
+import NAFC from '@/assets/heroPartners/NAFC.webp'
+import nbf from '@/assets/heroPartners/nbf.webp'
+import militaryPension from '@/assets/heroPartners/militaryPension.webp'
+import stanbic from '@/assets/heroPartners/stanbic.webp'
+import bankMusa from '@/assets/heroPartners/bankmusa.webp'
+import bankIga from '@/assets/heroPartners/bankiga.webp'
+import lapo from '@/assets/heroPartners/lapo.webp'
 
 export function Partners() {
   return (

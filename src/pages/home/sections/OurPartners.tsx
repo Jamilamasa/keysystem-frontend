@@ -1,9 +1,9 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import softwareGroup from "@/assets/ourPartnersImages/softwareGroup.png";
-import cognizant from "@/assets/ourPartnersImages/cognizant.png";
-import temenos from "@/assets/ourPartnersImages/temenos.png";
-import netInfo from "@/assets/ourPartnersImages/NetInfo.png";
-import techMahidra from "@/assets/ourPartnersImages/techMahidra.png";
+import softwareGroup from "@/assets/ourPartnersImages/softwareGroup.webp";
+import cognizant from "@/assets/ourPartnersImages/cognizant.webp";
+import temenos from "@/assets/ourPartnersImages/temenos.webp";
+import netInfo from "@/assets/ourPartnersImages/NetInfo.webp";
+import techMahidra from "@/assets/ourPartnersImages/techMahidra.webp";
 
 
 export function OurPartners() {
