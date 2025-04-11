@@ -1,5 +1,5 @@
-import heroVisual from "@/assets/HeroVisual.png";
-import stroke from "@/assets/stroke.png";
+import heroVisual from "@/assets/HeroVisual.webp";
+import stroke from "@/assets/stroke.webp";
 
 const HeroVisual = () => {
   return (

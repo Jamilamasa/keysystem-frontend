@@ -1,6 +1,6 @@
 import { MovingBorderDiv } from "@/components/ui/moving-border";
-import visionImage from "@/assets/vision.png";
-import missionImage from "@/assets/mission.png";
+import visionImage from "@/assets/vision.webp";
+import missionImage from "@/assets/mission.webp";
 import { Spotlight } from "@/components/ui/Spotlight";
 
 const WhatWeRepresent = () => {

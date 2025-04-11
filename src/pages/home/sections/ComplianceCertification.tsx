@@ -1,5 +1,5 @@
 import { MagicButtonLink } from "@/components/ui/MagicButton";
-import certifications from "@/assets/complianceCertification.png"
+import certifications from "@/assets/complianceCertification.webp"
 
 const ComplianceCertification = () => {
 

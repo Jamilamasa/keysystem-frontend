@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import errorIllustration from "@/assets/error404.svg";
+import errorIllustration from "@/assets/error404.webp";
 
 const ErrorFallback = () => {
   return (

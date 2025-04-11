@@ -1,5 +1,5 @@
-import logo from "@/assets/KeySystem.svg";
-import phoneIcon from "@/assets/icons/phone.svg";
+import logo from "@/assets/KeySystem.webp";
+import phoneIcon from "@/assets/icons/phone.webp";
 import { Menu} from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 import { NavLink as navLinkType } from "@/constants/navLinks";
@@ -11,7 +11,7 @@ const MobileNavbar = (props: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <button className="md:hidden p-2 text-white">
+        <button className="md:hidden p-2 text-white" aria-label="Toggle navigation menu">
           <Menu className="w-6 h-6" />
         </button>
       </DialogTrigger>

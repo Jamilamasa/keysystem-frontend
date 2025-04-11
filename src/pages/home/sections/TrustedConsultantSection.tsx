@@ -1,5 +1,5 @@
 import { GridBackground } from "@/components/ui/GridBackground";
-import trustedConsultant from "@/assets/trustedConsultant.png";
+import trustedConsultant from "@/assets/trustedConsultant.webp";
 
 const TrustedConsultantSection = () => {
   return (

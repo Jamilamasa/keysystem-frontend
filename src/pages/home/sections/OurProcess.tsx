@@ -1,6 +1,6 @@
-import consultation from "@/assets/strategicConsultation.png"
-import collaboration from "@/assets/collaboration.png"
-import delivery from "@/assets/delivery.png"
+import consultation from "@/assets/strategicConsultation.webp"
+import collaboration from "@/assets/collaboration.webp"
+import delivery from "@/assets/delivery.webp"
 const OurProcess = () => {
   return (
     <section className="bg-[#020107] text-white pt-[100.73px] pb-[204.17px] lg:px-[103px] px-10">
